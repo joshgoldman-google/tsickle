@@ -17,6 +17,8 @@ import {createGoogCall, createGoogLoadedModulesRegistration, createNotEmittedSta
  * `importPathToGoogNamespace()` and `commonJsToGoogmoduleTransformer()`.
  */
 export interface GoogModuleProcessorHost {
+  // DO NOT SUBMIT
+  // A Copybara Test
   /**
    * Takes a context (ts.SourceFile.fileName of the current file) and the import
    * URL of an ES6 import and generates a googmodule module name for the
